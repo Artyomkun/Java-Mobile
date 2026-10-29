@@ -1,0 +1,7 @@
+<resources>
+    <style name="Theme.DZ8" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#2E6BFF</item>
+        <item name="colorPrimaryDark">#1E4CCB</item>
+        <item name="colorAccent">#5E8DFF</item>
+    </style>
+</resources>

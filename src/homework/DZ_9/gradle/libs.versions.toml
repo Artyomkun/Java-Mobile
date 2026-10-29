@@ -1,0 +1,40 @@
+[versions]
+appcompat = "1.8.0"
+coreKtx = "1.19.1"
+coreSplashscreen = "1.2.0"
+fragmentKtx = "1.9.1"
+kotlin = "2.4.21"
+kotlinxDatetime = "0.8.0"
+kotlinxSerializationJSON = "1.12.0"
+kotlinxCoroutines = "1.11.0"
+agp = "9.4.1"
+composeBom = "2026.09.00"
+compose-plugin = "1.12.2"
+activityCompose = "1.13.0"
+material = "1.14.0"
+
+[libraries]
+appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
+coreKtx = { module = "androidx.core:core-ktx", version.ref = "coreKtx" }
+coreSplashscreen = { module = "androidx.core:core-splashscreen", version.ref = "coreSplashscreen" }
+fragmentKtx = { module = "androidx.fragment:fragment-ktx", version.ref = "fragmentKtx" }
+kotlinxDatetime = { module = "org.jetbrains.kotlinx:kotlinx-datetime", version.ref = "kotlinxDatetime" }
+kotlinxSerialization = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinxSerializationJSON" }
+kotlinxCoroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinxCoroutines" }
+
+androidxComposeBom = { module = "androidx.compose:compose-bom", version.ref = "composeBom" }
+androidxActivityCompose = { module = "androidx.activity:activity-compose", version.ref = "activityCompose" }
+material = { module = "com.google.android.material:material", version.ref = "material" }
+material3 = { module = "androidx.compose.material3:material3" }
+ui = { module = "androidx.compose.ui:ui" }
+uiToolingPreview = { module = "androidx.compose.ui:ui-tooling-preview" }
+uiTooling = { module = "androidx.compose.ui:ui-tooling" }
+
+[bundles]
+kotlinxEcosystem = ["kotlinxDatetime", "kotlinxSerialization", "kotlinxCoroutines"]
+
+[plugins]
+kotlinPluginSerialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+kotlinCompose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+jetbrainsCompose = { id = "org.jetbrains.compose", version.ref = "compose-plugin" }
