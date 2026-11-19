@@ -1,3 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">DZ_8</string>
+    <string name="app_name">Умный дом</string>
+    <string name="login_title">Вход в умный дом</string>
+    <string name="login_label">Логин</string>
+    <string name="login_hint">Введите логин</string>
+    <string name="password_label">Пароль</string>
+    <string name="password_hint">Введите пароль</string>
+    <string name="login_button">Авторизоваться</string>
+    <string name="login_empty_error">Заполните все поля</string>
+    <string name="welcome_user">Привет, %1$s!</string>
+    <string name="smart_home_title">Умный дом</string>
+    <string name="climate_title">Климат-контроль</string>
+    <string name="lighting_title">Освещение</string>
+    <string name="lighting_status">Включено (87%)</string>
+    <string name="security_title">Безопасность</string>
+    <string name="security_status">Под охраной</string>
+    <string name="house_status_title">Состояние дома</string>
+    <string name="house_status_ready">Все системы готовы</string>
+    <string name="house_status_active">Активный режим</string>
+    <string name="house_status_night">Ночной режим</string>
+    <string name="start_button">Запустить</string>
+    <string name="temp_unit">%1$d°C</string>
+    <string name="temp_increased">Температура увеличена до %1$d°C</string>
+    <string name="temp_decreased">Температура уменьшена до %1$d°C</string>
+    <string name="temp_max_reached">Максимальная температура (30°C)</string>
+    <string name="temp_min_reached">Минимальная температура (15°C)</string>
+    <string name="toast_lighting_click">Управление освещением</string>
+    <string name="toast_security_click">Система безопасности активна</string>
+    <string name="toast_status_click">Режим дома активирован</string>
 </resources>
