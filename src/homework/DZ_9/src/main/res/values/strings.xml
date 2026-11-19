@@ -1,11 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">DZ_9</string>
+    <string name="app_name">Умный дом</string>
+    <string name="login_title">Вход в умный дом</string>
+    <string name="login_label">Логин</string>
+    <string name="login_hint">Введите логин</string>
+    <string name="password_label">Пароль</string>
+    <string name="password_hint">Введите пароль</string>
+    <string name="login_button">Авторизоваться</string>
+    <string name="login_empty_error">Заполните все поля</string>
+    <string name="welcome_user">Привет, %1$s!</string>
     <string name="smart_home_title">Умный дом</string>
+    <string name="climate">Климат-контроль</string>
     <string name="room_lighting">Освещение</string>
-    <string name="climate">Климат</string>
+    <string name="lighting_status">Включено (87%)</string>
     <string name="security">Безопасность</string>
+    <string name="security_status">Под охраной</string>
     <string name="house_status">Состояние дома</string>
+    <string name="house_status_ready">Все системы готовы</string>
+    <string name="house_status_active">Активный режим</string>
     <string name="temperature">21°C</string>
     <string name="mode">Ночной режим</string>
     <string name="start">Запустить</string>
+
+    <string name="temp_unit">%1$d°C</string>
+    <string name="temp_increased">Температура увеличена до %1$d°C</string>
+    <string name="temp_decreased">Температура уменьшена до %1$d°C</string>
+    <string name="temp_max_reached">Максимальная температура (30°C)</string>
+    <string name="temp_min_reached">Минимальная температура (15°C)</string>
+
+    <string name="toast_lighting_click">Управление освещением</string>
+    <string name="toast_security_click">Система безопасности активна</string>
+    <string name="toast_status_click">Режим дома активирован</string>
+
+    <!-- Navigation Drawer Strings -->
+    <string name="nav_home">Главная</string>
+    <string name="nav_about">О приложении</string>
+    <string name="nav_other">Прочее</string>
+    <string name="nav_logout">Выйти</string>
+
+    <!-- About Screen Strings -->
+    <string name="about_title">О приложении</string>
+    <string name="about_app_name">Приложение «Умный дом»</string>
+    <string name="about_version">Версия: 1.0.0</string>
+    <string name="about_author">Автор: Студент Android-разработки</string>
+    <string name="about_description">Приложение для дистанционного управления системами умного дома: освещением, климатом и безопасностью.</string>
 </resources>
