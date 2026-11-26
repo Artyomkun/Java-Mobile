@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="screen_background">#F2F5F7</color>
+    <color name="card_surface">#FFFFFF</color>
+    <color name="text_primary">#1D2935</color>
+    <color name="text_secondary">#77838D</color>
+    <color name="primary">#287C72</color>
+    <color name="soft_green">#E5F3EF</color>
+    <color name="status_green">#32856C</color>
+    <color name="status_orange">#C07A35</color>
+    <color name="white">#FFFFFF</color>
+</resources>

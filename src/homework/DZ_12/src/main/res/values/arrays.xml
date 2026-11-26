@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="temperature_options">
+        <item>19°C</item>
+        <item>20°C</item>
+        <item>21°C</item>
+        <item>22°C</item>
+        <item>23°C</item>
+        <item>24°C</item>
+        <item>25°C</item>
+    </string-array>
+</resources>

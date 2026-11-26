@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Умный дом</string>
+    <string name="home_label">МОЙ ДОМ  ·  СРЕДА, 26 НОЯБРЯ</string>
+    <string name="avatar_initials">АК</string>
+    <string name="greeting">Добрый вечер!</string>
+    <string name="home_subtitle">Дома комфортно и безопасно</string>
+    <string name="climate_heading">КЛИМАТ</string>
+    <string name="living_room">Гостиная</string>
+    <string name="default_temperature">22°</string>
+    <string name="temperature_value">%1$d°</string>
+    <string name="comfortable">Комфортно</string>
+    <string name="temperature_hint">Целевая температура  ·  22°C</string>
+    <string name="change_temperature">Изменить температуру</string>
+    <string name="security_heading">Безопасность</string>
+    <string name="security_armed">●  Дом под охраной</string>
+    <string name="security_disarmed">●  Охрана отключена</string>
+    <string name="disarm_button">Снять с охраны</string>
+    <string name="arm_button">Поставить на охрану</string>
+    <string name="footer_note">Все устройства работают исправно</string>
+    <string name="temperature_dialog_title">Температура в гостиной</string>
+    <string name="apply">Применить</string>
+    <string name="cancel">Отмена</string>
+    <string name="disarm_title">Снять дом с охраны?</string>
+    <string name="disarm_message">Датчики движения и дверей будут временно отключены.</string>
+    <string name="disarm">Снять</string>
+    <string name="arm_title">Поставить дом на охрану?</string>
+    <string name="arm_message">Проверьте, что все двери и окна закрыты.</string>
+    <string name="arm">Поставить</string>
+</resources>
