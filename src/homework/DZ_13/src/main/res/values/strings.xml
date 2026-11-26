@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Заметки</string>
+    <string name="collection_label">МОЯ КОЛЛЕКЦИЯ</string>
+    <string name="avatar_initials">АК</string>
+    <string name="notes_title">Заметки</string>
+    <string name="notes_count_initial">3 заметки</string>
+    <plurals name="notes_count">
+        <item quantity="one">%1$d заметка</item>
+        <item quantity="few">%1$d заметки</item>
+        <item quantity="many">%1$d заметок</item>
+        <item quantity="other">%1$d заметки</item>
+    </plurals>
+    <string name="add_note">＋   Новая заметка</string>
+    <string name="sample_category">ЛИЧНОЕ</string>
+    <string name="sample_date">СЕГОДНЯ · 10:42</string>
+    <string name="sample_title">Идеи для выходных</string>
+    <string name="sample_body">Съездить за город, взять термос и фотоаппарат. Посмотреть маршрут до озера.</string>
+    <string name="new_note">Новая заметка</string>
+    <string name="note_title_hint">Название</string>
+    <string name="note_body_hint">О чём хотите запомнить?</string>
+    <string name="save">Сохранить</string>
+    <string name="cancel">Отмена</string>
+    <string name="close">Закрыть</string>
+    <string name="empty_note">В этой заметке пока нет текста.</string>
+    <string name="untitled_note">Без названия</string>
+    <string name="delete_note_title">Удалить заметку?</string>
+    <string name="delete_note_message">Заметка «%1$s» будет удалена.</string>
+    <string name="delete">Удалить</string>
+    <string name="notes_load_error">Не удалось прочитать заметки. Создан новый список.</string>
+</resources>
